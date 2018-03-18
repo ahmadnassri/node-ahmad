@@ -20,9 +20,9 @@ npm install --prod --save ahmad
 [travis-url]: https://travis-ci.org/ahmadnassri/node-ahmad
 [travis-image]: https://img.shields.io/travis/ahmadnassri/node-ahmad.svg?style=flat-square
 
-[npm-url]: https://www.npmjs.com/package/ahmad
-[npm-version]: https://img.shields.io/npm/v/ahmad.svg?style=flat-square
-[npm-downloads]: https://img.shields.io/npm/dm/ahmad.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@ahmadnassri/ahmad
+[npm-version]: https://img.shields.io/npm/v/@ahmadnassri/ahmad.svg?style=flat-square
+[npm-downloads]: https://img.shields.io/npm/dm/@ahmadnassri/ahmad.svg?style=flat-square
 
 [codeclimate-url]: https://codeclimate.com/github/ahmadnassri/node-ahmad
 [codeclimate-coverage]: https://api.codeclimate.com/v1/badges/59c8822c6bffc8e35456/test_coverage?style=flat-square
