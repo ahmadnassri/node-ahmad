@@ -1,0 +1,37 @@
+{
+  "version": "0.0.0-development",
+  "name": "@ahmadnassri/about",
+  "description": "npm package with meta data about me!",
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "homepage": "https://github.com/ahmadnassri/node-ahmad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadnassri/node-ahmad.git"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [
+    "ahmad",
+    "nassri",
+    "ahmadnassri"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=9"
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "pretest": "npm run test:codeclimate",
+    "test": "npm run test:tap",
+    "test:codeclimate": ".scripts/codeclimate analyze",
+    "test:tap": "tap test --100 --coverage-report=lcov --no-browser",
+    "coverage": "opener coverage/lcov-report/index.html"
+  },
+  "devDependencies": {
+    "tap": "^11.1.0"
+  }
+}
