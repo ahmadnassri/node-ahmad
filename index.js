@@ -1,20 +1,24 @@
 module.exports = {
-  name: {
-    first: 'Ahmad',
-    last: 'Nassri'
+  name: 'Ahmad Nassri',
+  label: 'Technologist',
+  picture: 'https://ahmadnassri.com/assets/images/picture.jpg',
+  email: 'email@ahmadnassri.com',
+  phone: '(647) 700-7703',
+  website: 'https://ahmadnassri.com',
+  summary: 'CTO of npm, Inc. Founder of Tech Masters Community, Member of Node.js Foundation, Advocate of all things Open Source, Startup Advisor, Entrepreneur.',
+  location: {
+    city: 'Toronto',
+    countryCode: 'CA',
+    region: 'Ontario'
   },
-  email: 'ahmad@nassri.email',
-  photo: 'https://www.ahmadnassri.com/assets/images/avatar.png',
-  bio: 'Advocate of all things open-source, Founder at Tech Masters, Founder at Bench CI, Mentor at Node School Toronto, Director at Full Stack Toronto.',
-  links: {
-    angel: 'https://angel.co/ahmadnassri',
-    codepen: 'https://codepen.io/ahmadnassri',
-    facebook: 'https://www.facebook.com/ahmadnassri',
-    github: 'https://github.com/ahmadnassri',
-    keybase: 'https://keybase.io/ahmadnassri',
-    linkedin: 'https://www.linkedin.com/in/ahmadnassri',
-    npm: 'https://www.npmjs.com/~ahmadnassri',
-    twitter: 'https://twitter.com/ahmadnassri',
-    website: 'https://www.ahmadnassri.com'
-  }
+  profiles: [
+    { network: 'codepen', username: 'ahmadnassri', url: 'https://codepen.io/ahmadnassri' },
+    { network: 'GitHub', username: 'ahmadnassri', url: 'http://github.com/ahmadnassri' },
+    { network: 'Instagram', username: 'ahmadnassri', url: 'https://www.instagram.com/ahmadnassri/' },
+    { network: 'keybase', username: 'ahmadnassri', url: 'https://keybase.io/ahmadnassri' },
+    { network: 'LinkedIn', username: 'ahmadnassri', url: 'http://linkedin.com/in/ahmadnassri' },
+    { network: 'npm', username: 'ahmadnassri', url: 'https://www.npmjs.com/~ahmadnassri' },
+    { network: 'Twitter', username: 'ahmadnassri', url: 'http://twitter.com/ahmadnassri' },
+    { network: 'YouTube', username: 'ahmadnassri', url: 'https://www.youtube.com/user/ahmadnassri' }
+  ]
 }
