@@ -1,6 +1,5 @@
 {
-  "private": false,
-  "version": "2.0.0",
+  "version": "0.0.0-semantically-released",
   "name": "ahmad",
   "description": "npm package with meta data about me!",
   "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (http://ahmadnassri.com)",
@@ -16,19 +15,18 @@
     "nassri",
     "ahmadnassri"
   ],
-  "engines": {
-    "node": ">=8"
-  },
   "files": [
     "index.js"
   ],
   "bugs": {
-    "url": "https://github.com/ahmadnassri/ahmad/issues"
+    "url": "https://github.com/ahmadnassri/node-ahmad/issues"
   },
   "scripts": {
-    "lint:ec": "npx editorconfig-checker .",
-    "lint:js": "npx eslint .",
-    "lint:md": "npx remark --quiet --frail .",
-    "lint": "npx run-p lint:*"
+    "test": "tap test --no-coverage",
+    "test:watch": "tap test --watch",
+    "test:ci": "tap test --100 --color --coverage-report=lcov --no-browser"
+  },
+  "devDependencies": {
+    "tap": "^14.10.8"
   }
 }
