@@ -9,22 +9,34 @@ env:
   NODE_ENV: test
 
 jobs:
-  test:
+  audit:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/setup-node@v2.1.1
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2.1.2
+      - run: npm audit --audit-level=moderate
+
+  test:
+    needs: audit
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        node-version: [10, 12, 13, 14]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - uses: actions/setup-node@v2.1.1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - uses: actions/checkout@v2
       - uses: actions/cache@v2
         with:
           path: ~/.npm
-          key: ${{ hashFiles('**/package-lock.json') }}
+          key: client-${{ hashFiles('**/package-lock.json') }}
 
-      # run audit
-      - run: npm audit
-
-      # install dependencies
       - run: npm ci
-
-      # run test
       - run: npm run test:ci
