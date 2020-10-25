@@ -1,25 +1,34 @@
 # ahmad
 
-[![License][license-image]][license-url] [![version][npm-image]][npm-url] [![Build Status][circle-image]][circle-url]
+npm package with meta data about me\!
 
-> npm package with meta data about me!
+[![license][license-img]][license-url]
+[![version][npm-img]][npm-url]
+[![super linter][super-linter-img]][super-linter-url]
+[![test][test-img]][test-url]
+[![release][release-img]][release-url]
 
 ## Install
 
-```bash
+``` bash
 npm install ahmad
 ```
 
----
-> Author: [Ahmad Nassri](https://ahmadnassri.com) &bull; 
-> Github: [@AhmadNassri](https://github.com/ahmadnassri) &bull; 
-> Twitter: [@AhmadNassri](https://twitter.com/ahmadnassri)
+----
+> Author: [Ahmad Nassri](https://www.ahmadnassri.com/) &bull;
+> Twitter: [@AhmadNassri](https://twitter.com/AhmadNassri)
 
 [license-url]: LICENSE
-[license-image]: https://img.shields.io/github/license/ahmadnassri/node-ahmad.svg?style=for-the-badge&logo=circleci
-
-[circle-url]: https://circleci.com/gh/ahmadnassri/workflows/node-ahmad
-[circle-image]: https://img.shields.io/circleci/project/github/ahmadnassri/node-ahmad/master.svg?style=for-the-badge&logo=circleci
+[license-img]: https://badgen.net/github/license/ahmadnassri/node-ahmad
 
 [npm-url]: https://www.npmjs.com/package/ahmad
-[npm-image]: https://img.shields.io/npm/v/ahmad.svg?style=for-the-badge&logo=npm
+[npm-img]: https://badgen.net/npm/v/ahmad
+
+[super-linter-url]: https://github.com/ahmadnassri/node-ahmad/actions?query=workflow%3Asuper-linter
+[super-linter-img]: https://github.com/ahmadnassri/node-ahmad/workflows/super-linter/badge.svg
+
+[test-url]: https://github.com/ahmadnassri/node-ahmad/actions?query=workflow%3Atest
+[test-img]: https://github.com/ahmadnassri/node-ahmad/workflows/test/badge.svg
+
+[release-url]: https://github.com/ahmadnassri/node-ahmad/actions?query=workflow%3Arelease
+[release-img]: https://github.com/ahmadnassri/node-ahmad/workflows/release/badge.svg

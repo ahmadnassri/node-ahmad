@@ -1,0 +1,8 @@
+version: 2.0
+
+id: ahmad
+
+about:
+  title: ahmad
+  description: npm package with meta data about me!
+  repository: ahmadnassri/node-ahmad
