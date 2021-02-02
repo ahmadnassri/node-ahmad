@@ -1,6 +1,6 @@
 # ahmad
 
-npm package with meta data about me\!
+npm package with meta data about me!
 
 [![license][license-img]][license-url]
 [![release][release-img]][release-url]
