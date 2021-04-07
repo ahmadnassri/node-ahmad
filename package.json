@@ -8,6 +8,10 @@
     "type": "git",
     "url": "https://github.com/ahmadnassri/node-ahmad.git"
   },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/ahmadnassri"
+  },
   "license": "MIT",
   "main": "index.js",
   "keywords": [
@@ -24,7 +28,8 @@
   "scripts": {
     "test": "tap test --no-coverage",
     "test:watch": "tap test --watch",
-    "test:ci": "tap test --100 --color --coverage-report=lcov --no-browser"
+    "test:ci": "tap test --100",
+    "test:report": "opener coverage/lcov-report/index.html"
   },
   "devDependencies": {
     "tap": "^14.10.8"
