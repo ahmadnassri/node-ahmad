@@ -8,12 +8,14 @@
     "type": "git",
     "url": "https://github.com/ahmadnassri/node-ahmad.git"
   },
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/node-ahmad/issues"
+  },
   "funding": {
     "type": "individual",
     "url": "https://github.com/sponsors/ahmadnassri"
   },
   "license": "MIT",
-  "main": "index.js",
   "keywords": [
     "ahmad",
     "nassri",
@@ -22,9 +24,7 @@
   "files": [
     "index.js"
   ],
-  "bugs": {
-    "url": "https://github.com/ahmadnassri/node-ahmad/issues"
-  },
+  "main": "index.js",
   "scripts": {
     "test": "tap test --no-coverage",
     "test:watch": "tap test --watch",
