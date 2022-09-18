@@ -5,7 +5,7 @@ module.exports = {
   email: 'email@ahmadnassri.com',
   phone: '(647) 700-7703',
   website: 'https://ahmadnassri.com',
-  summary: 'CTO of npm, Inc. Founder of Tech Masters Community, Member of Node.js Foundation, Advocate of all things Open Source, Startup Advisor, Entrepreneur.',
+  summary: 'CTO of #paid, Co-Founder of Cor, Developer Accelerator, Startup Advisor, Entrepreneur, Founder of Tech Masters Community.',
   location: {
     city: 'Toronto',
     countryCode: 'CA',
