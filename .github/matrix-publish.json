@@ -1,6 +1,6 @@
 {
-  "include": [
-    { "id": "NPM", "registry": "https://registry.npmjs.org", "name": "ahmad" },
-    { "id": "GITHUB", "registry": "https://npm.pkg.github.com", "name": "@ahmadnassri/ahmad" }
+  "registry": [
+    { "id": "NPM", "url": "https://registry.npmjs.org", "name": "ahmad" },
+    { "id": "GITHUB", "url": "https://npm.pkg.github.com", "name": "@ahmadnassri/ahmad" }
   ]
 }
