@@ -5,7 +5,7 @@ module.exports = {
   email: 'email@ahmadnassri.com',
   phone: '(647) 700-7703',
   website: 'https://ahmadnassri.com',
-  summary: 'CTO of #paid, Co-Founder of Cor, Developer Accelerator, Startup Advisor, Entrepreneur, Founder of Tech Masters Community.',
+  summary: 'CTO & Strategic Advisor | AI/ML, SaaS, Cloud Strategy | Digital Transformation | Open Source Leader',
   location: {
     city: 'Toronto',
     countryCode: 'CA',
