@@ -1,8 +1,8 @@
-const ahmad = require('..')
-const { test } = require('tap')
+import ahmad from '../index.js'
+import { test } from 'node:test'
 
-test('imports successfully', assert => {
-  assert.plan(1)
+test('imports successfully', t => {
+  t.plan(1)
 
-  assert.equal(ahmad.name, 'Ahmad Nassri')
+  t.assert.equal(ahmad.name, 'Ahmad Nassri')
 })

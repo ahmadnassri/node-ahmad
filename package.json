@@ -1,9 +1,10 @@
 {
-  "version": "2.2.0",
+  "version": "0.0.0-semantically-released",
   "name": "@ahmadnassri/ahmad",
   "description": "npm package with meta data about me!",
   "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (http://ahmadnassri.com)",
   "homepage": "https://ahmadnassri.com",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/ahmadnassri/node-ahmad.git"
@@ -26,12 +27,13 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "tap test --no-coverage",
-    "test:watch": "tap test --watch",
-    "test:ci": "tap test --100",
-    "test:report": "opener coverage/lcov-report/index.html"
+    "start": "node src/index.js",
+    "test": "npm run test:cli -- test",
+    "test:cli": "node --experimental-test-coverage --test",
+    "test:watch": "npm run test:cli -- --watch test",
+    "test:ci": "npm run test:cli -- --test-reporter node-test-github-reporter test"
   },
   "devDependencies": {
-    "tap": "^16.3.8"
+    "node-test-github-reporter": "^1.2.0"
   }
 }

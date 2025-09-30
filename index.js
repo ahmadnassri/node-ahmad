@@ -1,6 +1,5 @@
-module.exports = {
+export default {
   name: 'Ahmad Nassri',
-  label: 'Technologist',
   picture: 'https://ahmadnassri.com/assets/images/picture.jpg',
   email: 'email@ahmadnassri.com',
   phone: '(647) 700-7703',
