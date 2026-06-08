@@ -34,6 +34,6 @@
     "test:ci": "npm run test:cli -- --test-reporter node-test-github-reporter test"
   },
   "devDependencies": {
-    "node-test-github-reporter": "^1.2.0"
+    "node-test-github-reporter": "^1.3.2"
   }
 }
